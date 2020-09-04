@@ -1,0 +1,35 @@
+body.dark{
+    background-color: #121212;
+}
+
+body.dark nav{
+    background: #1f1f1f;
+    border-bottom-color: #333333;
+}
+
+body.dark p.title, body.dark p.description, body.dark p.series-title, body.dark button.show-more-btn{
+    color: #efefef;
+}
+
+body.dark p.title{
+    border-bottom-color: #333333;
+}
+
+body.dark .list{
+    border-color: #333333;
+}
+
+body.dark .list .list-header{
+    background: #1f1f1f;
+    border-color: #333333;
+}
+
+body.dark .main .list ul .item li{
+    color: #ffffff;
+}
+
+body.dark .main .list ul .item{
+    border-bottom-color: #333333;
+}
+
+body.dark svg{fill: white;}
