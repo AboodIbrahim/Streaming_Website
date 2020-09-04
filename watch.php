@@ -59,7 +59,7 @@ $current_episode = $episodes[$episode-1];
                 <ul>
                 <?php
                 for($i=1; $i<count($episodes)+1; $i++){
-                    echo "<a href=/watch.php?series=".$_GET['series']."&episode=". $i .">";
+                    echo "<a href=watch.php?series=".$_GET['series']."&episode=". $i .">";
                     if ($i == $episode) echo "<div class='item active'>";
                     else echo "<div class=item>";
                     echo "<span>".$i."</span><li>".$episodes[$i-1]->title."</li></div></a>";

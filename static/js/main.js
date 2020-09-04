@@ -1,5 +1,9 @@
 var toggler = document.querySelector('.background');
 
+let activeItem = document.querySelector('.item.active');
+
+document.querySelector('.list ul').scroll(0, activeItem.offsetTop - activeItem.offsetHeight +2);
+
 if (localStorage.getItem('darkMode') == 'false' || localStorage.getItem('darkMode') == null){
     document.body.classList.remove('dark')
     toggler.classList.remove('active');
